@@ -8,3 +8,15 @@ function ChangeLeftMenuButtonColors(id){
     }
     clicked_button.style.backgroundColor = "rgb(180, 3, 3)";
 }
+
+function ToggleDropdown(id){
+    menu = document.getElementById(id)
+    const Item = document.querySelector('.dropdown');
+    if (Item.style.display == "none"){
+        Item.style.display = "block";
+    }
+    else if (Item.style.display == "block"){
+        Item.style.display = "none";
+    }
+
+}
