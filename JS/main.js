@@ -6,16 +6,16 @@ document.addEventListener("DOMContentLoaded", function(colors){
         var roll = Math.floor(Math.random(1,5)*5) + 1;
         console.log(roll)
         if (roll == 1){
-            buttons[i].style.backgroundColor = "green";
+            buttons[i].style.backgroundColor = "orange";
         }
         else if (roll == 2){
-            buttons[i].style.backgroundColor = "blue";
+            buttons[i].style.backgroundColor = "cornflowerblue";
         }
         else if (roll == 3){
-            buttons[i].style.backgroundColor = "red";
+            buttons[i].style.backgroundColor = "violet";
         }
         else if (roll == 4){
-            buttons[i].style.backgroundColor = "cornflowerblue";
+            buttons[i].style.backgroundColor = "purple";
         }
         else if (roll == 5){
             buttons[i].style.backgroundColor = "darkslateblue";
@@ -24,6 +24,32 @@ document.addEventListener("DOMContentLoaded", function(colors){
     }
 }); 
 
+document.addEventListener("DOMContentLoaded", function colorChanging() {
+    setTimeout(function(){
+    const buttons = document.getElementsByClassName('btn')
+    for (var i = 0; i < buttons.length; i++){
+        var roll = Math.floor(Math.random(1,5)*5) + 1;
+        console.log(roll)
+        if (roll == 1){
+            buttons[i].style.backgroundColor = "orange";
+        }
+        else if (roll == 2){
+            buttons[i].style.backgroundColor = "cornflowerblue";
+        }
+        else if (roll == 3){
+            buttons[i].style.backgroundColor = "violet";
+        }
+        else if (roll == 4){
+            buttons[i].style.backgroundColor = "purple";
+        }
+        else if (roll == 5){
+            buttons[i].style.backgroundColor = "darkslateblue";
+        }
+    }
+    colorChanging();
+}, 100);
+});
+
 
 function ChangeLeftMenuButtonColors(id){
     const clicked_button = document.getElementById(`${id}`);
@@ -31,7 +57,7 @@ function ChangeLeftMenuButtonColors(id){
     for(var i = 0, il = buttons.length; i<il; i++){
         buttons[i].style.backgroundColor = "rgb(35, 35, 35)";
     }
-    clicked_button.style.backgroundColor = "rgb(180, 3, 3)";
+    clicked_button.style.backgroundColor = "rgb(255, 8, 103)";
 }
 
 function ToggleDropdown(id){
