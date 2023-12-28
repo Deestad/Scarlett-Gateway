@@ -189,8 +189,6 @@ body {
     height: 100vh;
 }
 #buttons-positioner{
-    position: absolute;
-    top: 80%;
 }
 
 #common-route {
@@ -215,7 +213,7 @@ body {
     top: 1vw;
     object-fit: contain;
     width: 60vw;
-    height: 20vw;
+    height: fit-content;
     padding: 1vw;   
     border-radius: 2vw;
     left: 2vw;
@@ -270,9 +268,12 @@ body {
 #datetime-common {
     font-family: 'Roboto';
     color: white;
-    position: absolute;
-    left: 4%;
     font-size: 2    vw;
     line-height: 2.7vw;
-    top: 10%;
+}
+#google-calendar {
+    margin-top: 3vw;
+    width: 90%;
+    height: 20vw;
+
 }
