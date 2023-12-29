@@ -22,8 +22,8 @@
         <nav id="navigator">  
             <h1 id="gateway-title">The Scarlett Gateway</h1> 
             <div id="nav-aligner"></div>
-             <a class="nav-items" href="index.html"> HOME</a>
-            |<a class="nav-items" href="linkway.html"> ACESSOS</a>
+             <a class="nav-items" href="index.php"> HOME</a>
+            |<a class="nav-items" href="linkway.php"> ACESSOS</a>
             </div>
         </nav>
     </header>
@@ -31,7 +31,7 @@
         <div id="landing-aligner">
             <h1 id="landing-title">GATEWAY: projeto de automatização de processos diários   </h1>
             <p id="landing-phrase">Dove c'è una grande volontà non possono esserci grandi difficoltà. I’ son fatta da Dio, sua mercé, tale / che la vostra miseria non mi tange / né fiamma d’esto ’ncendio non m’assale.</p>
-            <a id="landing-button" href="linkway.html">Entrar no sistema</a>
+            <a id="landing-button" href="linkway.php">Entrar no sistema</a>
         </div>
         <div id="video-container">
             <div id="overlapper-landingvideo"></div>

@@ -52,7 +52,17 @@
                     Olá, Kaldwin. <br>
                     <b>Hoje é x z z</b>
                 </p>
-                <iframe id="google-calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%239E69AF&ctz=America%2FSao_Paulo&mode=MONTH&hl=pt_BR&title=Eventos%20esperados&showTz=0&showPrint=0&src=a2FsbGlkZGVsQGdtYWlsLmNvbQ&color=%23039BE5" style="border: 0" width="800" height="300" frameborder="0" scrolling="no"></iframe>
+                <div class="widget-box">
+                    <div class="widget">
+
+                    </div>
+                    <div class="widget">
+
+                    </div>
+                    <div class="widget">
+
+                    </div>
+                </div>
                 <div id="buttons-positioner">
                     <div class="btn-group common-gateway">
                         <button type="button" id="uffs" class="btn btn-success dropdown-toggle dropbutton"
@@ -157,8 +167,12 @@
                                 -
                                 Italiano</a>
                         </div>
+
                     </div>
+                    <iframe id="google-calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%239E69AF&ctz=America%2FSao_Paulo&mode=MONTH&hl=pt_BR&title=Eventos%20esperados&showTz=0&showPrint=0&src=a2FsbGlkZGVsQGdtYWlsLmNvbQ&color=%23039BE5" style="border: 0" width="800" height="300" frameborder="0" scrolling="no"></iframe>
+
                 </div>
+
                 
             </div>
     </div>
