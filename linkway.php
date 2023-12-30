@@ -172,7 +172,14 @@
                 <div class="widget-box">
                     <div class="widget">
                         <form action="includes/formhandler.php" id="stickyform" method="post"> 
-                            <textarea type="text" id="sticky" name="sticky"> </textarea>
+                            <textarea required type="text" id="sticky" name="sticky"><?php 
+                                try {
+                                    require_once("phpconnect.php");
+                                    $result = $conn->query("SELECT contents FROM sticky WHERE id = 1")->fetch(PDO::FETCH_ASSOC);
+                                    echo $result['contents'];
+                                } catch (PDOException $e) {
+                                    die("Query failed." . $e->getMessage());
+                                }?> </textarea>
                         </form>
                     </div>
 

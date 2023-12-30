@@ -7,14 +7,27 @@ document.addEventListener("DOMContentLoaded", function(setSticky){
 
     const stickyform = document.getElementById('stickyform');
     const stickyarea = document.getElementById('sticky');
-    console.log(stickyarea)
-    console.log(stickyform)
+    console.log(stickyarea);
+    console.log(stickyform);
+    var t;
     stickyarea.onkeyup = function(submitSticky){
         console.log("Typing...")
-        if (stickyarea.value.length > 0){
+        function submitAfterTimeout(){
             stickyform.submit();
             console.log("Sticky note set.")
         }
+        if (stickyarea.value.length > 0){
+            if (t){
+                clearTimeout(t);
+                t = setTimeout(submitAfterTimeout,1000);
+            } else
+            {
+                t = setTimeout(submitAfterTimeout, 1000);
+            }
+
+            
+        }
+        
     };
 });
 
