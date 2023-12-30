@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- OUR STYLESHEETS-->
-    <link rel="stylesheet" href="CSS/default.css">
+    <link rel="stylesheet" href="../CSS/default.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-    <script type="text/javascript" src="JS/main.js"></script>
+    <script type="text/javascript" src="../JS/main.js"></script>
 
 
     <title>Scarlett Gateway</title>
@@ -25,7 +25,7 @@
         <nav id="navigator">
             <h1 id="gateway-title">The Scarlett Gateway</h1>
             <div id="nav-aligner"></div>
-            <a class="nav-items" href="index.php"> HOME</a>
+            <a class="nav-items" href="../index.php"> HOME</a>
             |<a class="nav-items" href="linkway.php"> ACESSOS</a>
             | <a class="nav-items"
                 href="https://docs.google.com/spreadsheets/d/1xp1tSz4B5aT1WFty3ImLFywiyFaMKQlb0sEmKRVkaIA/edit#gid=0"
@@ -38,13 +38,13 @@
         <div id="left-menu">
             <div id="menu-items-container">
                 <button id="menu-button-1" class="menu-buttons" onclick="ChangeLeftMenuButtonColors(this.id);"><img
-                        src="Images/commonroute.svg">Rota
+                        src="../Images/commonroute.svg">Rota
                     Comum</button>
                 <button id="menu-button-2" class="menu-buttons" onclick="ChangeLeftMenuButtonColors(this.id);"><img
-                        src="Images/academic.svg">Rota
+                        src="../Images/academic.svg">Rota
                     acadêmica</button>
                 <button id="menu-button-3" class="menu-buttons" onclick="ChangeLeftMenuButtonColors(this.id);"><img
-                        src="Images/linguistic.svg">Rota
+                        src="../Images/linguistic.svg">Rota
                     linguística</button>
             </div>
         </div>
