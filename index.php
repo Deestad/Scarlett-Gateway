@@ -23,7 +23,7 @@
             <h1 id="gateway-title">The Scarlett Gateway</h1> 
             <div id="nav-aligner"></div>
              <a class="nav-items" href="index.php"> HOME</a>
-            |<a class="nav-items" href="linkway.php"> ACESSOS</a>
+            |<a class="nav-items" href="includes/login.php"> ACESSOS</a>
             </div>
         </nav>
     </header>
