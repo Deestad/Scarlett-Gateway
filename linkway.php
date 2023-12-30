@@ -25,8 +25,8 @@
         <nav id="navigator">
             <h1 id="gateway-title">The Scarlett Gateway</h1>
             <div id="nav-aligner"></div>
-            <a class="nav-items" href="index.html"> HOME</a>
-            |<a class="nav-items" href="linkway.html"> ACESSOS</a>
+            <a class="nav-items" href="index.php"> HOME</a>
+            |<a class="nav-items" href="linkway.php"> ACESSOS</a>
             | <a class="nav-items"
                 href="https://docs.google.com/spreadsheets/d/1xp1tSz4B5aT1WFty3ImLFywiyFaMKQlb0sEmKRVkaIA/edit#gid=0"
                 target="_blank">GATEWAY DO DRIVE</a>
@@ -37,11 +37,14 @@
     <div id="main-functionality">
         <div id="left-menu">
             <div id="menu-items-container">
-                <button id="menu-button-1" class="menu-buttons" onclick="ChangeLeftMenuButtonColors(this.id);"><img src="Images/commonroute.svg">Rota
+                <button id="menu-button-1" class="menu-buttons" onclick="ChangeLeftMenuButtonColors(this.id);"><img
+                        src="Images/commonroute.svg">Rota
                     Comum</button>
-                <button id="menu-button-2" class="menu-buttons" onclick="ChangeLeftMenuButtonColors(this.id);"><img src="Images/academic.svg">Rota
+                <button id="menu-button-2" class="menu-buttons" onclick="ChangeLeftMenuButtonColors(this.id);"><img
+                        src="Images/academic.svg">Rota
                     acadêmica</button>
-                <button id="menu-button-3" class="menu-buttons" onclick="ChangeLeftMenuButtonColors(this.id);"><img src="Images/linguistic.svg">Rota
+                <button id="menu-button-3" class="menu-buttons" onclick="ChangeLeftMenuButtonColors(this.id);"><img
+                        src="Images/linguistic.svg">Rota
                     linguística</button>
             </div>
         </div>
@@ -52,17 +55,6 @@
                     Olá, Kaldwin. <br>
                     <b>Hoje é x z z</b>
                 </p>
-                <div class="widget-box">
-                    <div class="widget">
-
-                    </div>
-                    <div class="widget">
-
-                    </div>
-                    <div class="widget">
-
-                    </div>
-                </div>
                 <div id="buttons-positioner">
                     <div class="btn-group common-gateway">
                         <button type="button" id="uffs" class="btn btn-success dropdown-toggle dropbutton"
@@ -146,7 +138,7 @@
                             <a class="dropdown-i" href="https://www.ilovepdf.com/" target="_blank">YTS5</a>
                         </div>
                     </div>
-                    
+
                     <div class="btn-group common-gateway">
                         <button type="button" id="pirataria" class="btn btn-success dropdown-toggle dropbutton"
                             onclick="ToggleDropdown(this.id)">
@@ -169,14 +161,30 @@
                         </div>
 
                     </div>
-                    <iframe id="google-calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%239E69AF&ctz=America%2FSao_Paulo&mode=MONTH&hl=pt_BR&title=Eventos%20esperados&showTz=0&showPrint=0&src=a2FsbGlkZGVsQGdtYWlsLmNvbQ&color=%23039BE5" style="border: 0" width="800" height="300" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <div class="widget-box">
+                    <div class="widget">
+                        <iframe id="google-calendar"
+                            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%239E69AF&ctz=America%2FSao_Paulo&mode=MONTH&hl=pt_BR&title=Eventos%20esperados&showTz=0&showPrint=0&src=a2FsbGlkZGVsQGdtYWlsLmNvbQ&color=%23039BE5"
+                            style="border: 0" width="800" height="300" frameborder="0" scrolling="no"></iframe>
+                    </div>
+                </div>
+                <div class="widget-box">
+                    <div class="widget">
+                    </div>
 
+                    <div class="widget">
+
+                    </div>
                 </div>
 
-                
+
             </div>
+
+
     </div>
-    
+    </div>
+
     </main>
     </div>
 </body>

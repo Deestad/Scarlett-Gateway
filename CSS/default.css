@@ -1,8 +1,8 @@
 
 /* ANIMATIONS */
 @keyframes navSlideDown {
-    from {margin-top: -10vw; opacity: 0;}
-    to {margin-top: 0vw; opacity: 1;}
+    from {top: -100%; opacity: 0;}
+    to {top: 0; opacity: 1;}
     
 }
 @keyframes MenuSlideFromLeft{
@@ -19,6 +19,8 @@
 
 
 body {
+    display: flex;
+    flex-direction: column;
     max-width: 100%;
     min-height: 100%;
     margin: 0;
@@ -31,6 +33,7 @@ body {
 /* NAV */
 
 #navigator {
+    position: absolute;
     animation: navSlideDown 2s ease-out;
     padding-top: 1.5vw;
     color: white;
@@ -68,7 +71,7 @@ body {
 /*  LANDING PAGE */
 #landing-page {
     width: 100%;
-    height: 45vw;
+    height: 100%;
 }
 #video-container{
     position: absolute;
@@ -137,6 +140,7 @@ body {
 /* MAIN SYSTEM */
 
 #left-menu{
+    flex-grow: 1;
     padding-top: 10px;
     z-index: 1;
     position: relative;
@@ -184,17 +188,15 @@ body {
     background-color:rgb(255, 8, 103);
 }
 #main-functionality {
+    display: flex;
     position: relative;
     object-fit: cover;
-    height: 100vh;
+    height: 10vw;
 }
 #buttons-positioner{
 }
 
 #common-route {
-    top: 0;
-    left: 20%;
-    position: absolute;
     height: 100%;
     width: 80%;
 }
@@ -207,7 +209,6 @@ body {
     border-radius: 0;
 }
 .common-gateway-wrapper {
-    position: absolute;
     background-color: rgb(40, 40, 40);
     color: black;
     top: 1vw;
@@ -282,18 +283,20 @@ body {
 .widget {
     display: flex;
     flex-grow: 2;
-    height: 15vw;
+    overflow: hidden;
+    height: 20vw;
     width: 15vw;
     margin: 1vw;
     margin-left: 0;
     margin-bottom: 2vw;
     background-color:rgb(54, 54, 54);
 }
+.widget * {
+    width: 100%;
+    height: 100%;
+}
 #google-calendar {
-    margin-top: 3vw;
-    width: 20vw;
-    height: 20vw;
-
+    font-size: 1vw;
 }
 
 
