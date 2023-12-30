@@ -55,7 +55,8 @@ body {
     width: 50%;
     height: 100%;
     display: table-cell;
-    background-color: blue;
+    background: url(../Images/aldyefriends.png) no-repeat;
+    background-size: 120%;
 }
 #login-form {
     width: 80%;

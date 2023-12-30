@@ -23,7 +23,7 @@
                     <form action="formhandler.php" method="post" id="login-form"> 
                         <h1 class="login-contents"> LOGIN </h1>
                         <label class="login-contents" for="password">Insira a senha para entrar no sistema da Scarlett Gateway. </label>
-                        <input class="login-contents" type="text" placeholder="Entre a senha" name="password" required>
+                        <input class="login-contents" type="password" placeholder="Entre a senha" name="password" required>
                         <input type="submit" value="Fazer login" class="login-contents">
                     </form>
 
