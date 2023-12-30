@@ -171,6 +171,9 @@
                 </div>
                 <div class="widget-box">
                     <div class="widget">
+                        <form action="includes/formhandler.php" id="stickyform" method="post"> 
+                            <textarea type="text" id="sticky" name="sticky"> </textarea>
+                        </form>
                     </div>
 
                     <div class="widget">
