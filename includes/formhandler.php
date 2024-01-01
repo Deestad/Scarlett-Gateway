@@ -21,11 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             die("Query failed." . $e->getMessage());
             
         }  
-    } else {
-        header("Location: ../login.php");
-        exit();
-    }
-    
+    } 
     
     if(isset($_POST["sticky"])){
         $sticky_note = htmlspecialchars($_POST["sticky"]);
@@ -53,8 +49,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         } catch (PDOException $e) {
             die("Query failed." . $e->getMessage());
             
-        }  
+        }   
     } else {
-        header("Location: linkway.php");
+        header("Location: login.php");
     }
 }

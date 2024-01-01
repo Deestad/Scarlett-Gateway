@@ -21,7 +21,7 @@
     <header>
         <nav id="navigator">  
             <h1 id="gateway-title">The Scarlett Gateway</h1> 
-            <div id="nav-aligner"></div>
+            <div id="nav-aligner">
              <a class="nav-items" href="index.php"> HOME</a>
             |<a class="nav-items" href="login.php"> ACESSOS</a>
             </div>
