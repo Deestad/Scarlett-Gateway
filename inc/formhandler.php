@@ -1,6 +1,6 @@
 <?php
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST" ) {
     
     if(isset($_POST["password"])){
         $input_password = htmlspecialchars($_POST["password"]);
@@ -10,6 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
             if(password_verify($input_password,$set_password["password"])){
+                setcookie("login_grant","True", time() + (86400 * 30), "/");
                 header("Location: linkway.php");
                 exit();
             } else {

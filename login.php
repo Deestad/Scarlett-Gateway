@@ -20,7 +20,7 @@
         <section id="login-area">
             <div id="login-box">
                 <div id="login-side">
-                    <form action="includes/formhandler.php" method="post" id="login-form"> 
+                    <form action="inc/formhandler.php" method="post" id="login-form"> 
                         <h1 class="login-contents"> LOGIN </h1>
                         <label class="login-contents" for="password">Insira a senha para entrar no sistema da Scarlett Gateway. </label>
                         <input class="login-contents" type="password" placeholder="Entre a senha" name="password" required>

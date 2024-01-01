@@ -1,3 +1,9 @@
+<?php
+if (!isset($_COOKIE["login_grant"])){
+    header( 'HTTP/1.0 404 Not found', TRUE, 404 );die("<h2>404 Not Found</h2> The document/file requested was not found on this server.");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
