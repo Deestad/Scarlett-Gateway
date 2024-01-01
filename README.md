@@ -3,6 +3,13 @@
 
 The Scarlett Gateway is my personal website designed to manage my daily life efficiently. 
 
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+
+
+
 ## Features
 
 ### Sticky Note
@@ -24,4 +31,7 @@ Scarlett Gateway includes a secure login system with hashed and salted passwords
 - **Simple Blog:** Share my thoughts and experiences with a built-in blog feature.
 
 - **Portfolio:** Showcase my skills, projects, and achievements in a dedicated portfolio section.
+
+![BUILT WITH LOVE](http://ForTheBadge.com/images/badges/built-with-love.svg)
+
 
