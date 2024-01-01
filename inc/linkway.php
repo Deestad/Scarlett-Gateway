@@ -1,5 +1,8 @@
 <?php
-if (!isset($_COOKIE["login_grant"])){
+ini_set('display_errors',0);
+require("cookie_token.php");
+if (!isset($_COOKIE["login_grant"]) && !password_verify($cookie_value, $_COOKIE["login_grant"])){
+    ini_set('display_errors',1);
     header( 'HTTP/1.0 404 Not found', TRUE, 404 );die("<h2>404 Not Found</h2> The document/file requested was not found on this server.");
 }
 ?>

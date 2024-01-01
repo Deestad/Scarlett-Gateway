@@ -10,6 +10,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" ) {
 
 
             if(password_verify($input_password,$set_password["password"])){
+                require("cookie_token.php");
+                $cookie_token = password_hash($cookie_value, PASSWORD_DEFAULT);
                 setcookie("login_grant","True", time() + (86400 * 30), "/");
                 header("Location: linkway.php");
                 exit();
