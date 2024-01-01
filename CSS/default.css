@@ -36,7 +36,7 @@ body {
     height: 100vh;
 }
 #login-box {
-    border-radius: 5%;
+    border-radius: 3vw;
     background-color: white;
     justify-content: center;
     width: 60vw;
